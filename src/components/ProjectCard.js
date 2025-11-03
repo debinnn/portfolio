@@ -32,6 +32,11 @@ const StyledWrapper = styled.div`
     box-shadow: 10px 10px 0 #000;
     font-family: "Arial", sans-serif;
     margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /* fixed card height so all cards match regardless of content */
+    height: 420px;
   }
 
   .brutalist-card__header {
@@ -55,13 +60,19 @@ const StyledWrapper = styled.div`
     color: #000;
     font-size: 0.9rem;
     line-height: 1.4;
-    border-bottom: 2px solid #000;
-    padding-bottom: 1rem;
     font-weight: 600;
+    /* allow the message area to take remaining space and clamp overflow */
+    flex: 1 1 auto;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* show ~6 lines then truncate */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
   }
 
   .brutalist-card__actions {
-    margin-top: 1rem;
+    /* push actions to the bottom of the card */
+    margin-top: auto;
   }
 
   .brutalist-card__button {

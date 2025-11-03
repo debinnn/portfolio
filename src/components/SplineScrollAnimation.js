@@ -50,24 +50,21 @@ export default function SplineScrollAnimation() {
               {/* Text Content Column */}
               <div className="text-white" style={{ fontFamily: 'Inter', fontWeight: '400' }}>
                 <p className="text-base md:text-lg mb-8 leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                  pariatur.
+                  Born in Kerala, India (2003) and brought up in Jeddah, Saudi Arabia. I was exposed to computers from a 
+                  very young age and took a keen interest in the field. Not just coding or development -- but, computers 
+                  as a whole. Hardware, building, video games, you name it. This led me to pursue a degree in Computer Applications,
+                  and then a masters at CHRIST University, where I am currently a 2nd year student.
+                    
                 </p>
                 
                 <p className="text-base md:text-lg mb-8 leading-relaxed">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                  mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit 
-                  voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab 
-                  illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  I like to make webapps that solve problems that I face in my daily life and also to make clones of 
+                  softwares/webapps that are paid. I use React and Next to achieve this. I also use Github Copilot to help me 
+                  along the way as well. 
                 </p>
                 
                 <p className="text-base md:text-lg leading-relaxed">
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
-                  consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro 
-                  quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+                  Apart from React and Next, I also use Java, SQL and a little bit of Python. 
                 </p>
               </div>
             </div>
@@ -104,21 +101,22 @@ export default function SplineScrollAnimation() {
           <div className="flex-1 flex items-center justify-center px-6 md:px-16 mt-0">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl">
               <ProjectCard
-                title="Project 1"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-                githubUrl="#"
+                title="BettrCalendar"
+                description="Leveraging google's API for google calendar, I made a clone with addition of a few features and a few bug fixes, which I felt were necessary for me. "
+                githubUrl="https://github.com/debinnn/BetterCalendar"
                 liveUrl="#"
               />
               <ProjectCard
-                title="Project 2"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-                githubUrl="#"
+                title="Enclypt"
+                description="Flask-based web application that allows users to securely encrypt and decrypt files using the Fernet symmetric encryption algorithm. The app provides an intuitive web interface for all operations."
+                githubUrl="https://github.com/debinnn/Enclypt-main"
                 liveUrl="#"
               />
               <ProjectCard
-                title="Project 3"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-                githubUrl="#"
+                title="Automated Log Analyzer"
+                description="Engineered a robust parsing tool in Java that reads application log files to automatically identify and categorize
+system events."
+                githubUrl="https://github.com/debinnn/log-analyzer"
                 liveUrl="#"
               />
             </div>
